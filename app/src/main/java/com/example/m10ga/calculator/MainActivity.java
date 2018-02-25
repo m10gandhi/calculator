@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         btn_equals = (Button) findViewById(R.id.btn_equals);
         btn_plus = (Button) findViewById(R.id.btn_plus);
         btn_plus_minus = (Button) findViewById(R.id.btn_percentage);
-
+//[1]
         tv_formula.setText("");
 
         btn_ac.setOnClickListener(new View.OnClickListener() {
@@ -276,3 +276,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
+//[1]
+//[2]
