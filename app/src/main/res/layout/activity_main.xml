@@ -26,6 +26,7 @@
         android:textSize="@dimen/actionbar_text_size"
         tools:ignore="RtlHardcoded"/>
 
+
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
@@ -34,7 +35,7 @@
         android:background="@android:color/white"
         android:fontFamily="sans-serif-light"
         android:gravity="right|center"
-        android:hint="Result"
+        android:hint="5+5"
         android:maxLines="1"
         android:maxEms="11"
         android:paddingLeft="@dimen/activity_margin"

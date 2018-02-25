@@ -11,7 +11,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     Button btn_ac, btn_root, btn_clear, btn_4, btn_5, btn_6, btn_7, btn_8, btn_9, btn_divide, btn_multiply, btn_1, btn_2, btn_3, btn_minus, btn_0, btn_decimal, btn_equals, btn_plus, btn_plus_minus;
-    TextView tv_formula, result;
+    TextView tv_formula, result, tv_formula2;
 
     boolean Addition, Subtraction, Multiplication, Division, SquareRoot, PlusMinus;
     double value;
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
 //                tv_formula.setText("+");
                 valueOne = Float.parseFloat(tv_formula.getText() + "");
                 Addition = true;
-                tv_formula.setText(null);
+              tv_formula.setText(null);
 
             }
         });
